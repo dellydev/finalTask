@@ -1,0 +1,44 @@
+body {
+    font-family: lato, sans-serif;
+    background-color: #e9ecef;
+    color: #ebebde;
+}
+
+.container {
+    max-width: 49rem;
+    margin: auto;
+}
+
+h1, h2 {
+    color: brown !important;
+}
+
+.summary-page {
+    padding: 1.3rem;
+    background: #ffffff;
+    box-shadow: 0 0 .7rem rgba(0, 0, 0, 0.1);
+    border-radius: .4rem;
+}
+
+.list-group-item {
+    background-color: #e9ecef;
+    border: none;
+}
+
+h5 {
+    font-size: 1.25rem;
+    color: brown;
+}
+
+.button-color {
+    background-color: whitesmoke;
+    border: none;
+    padding: .6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: .7rem;
+    color: #fff;
+}
+
+.button-color:hover {
+    background-color: burlywood;
+}

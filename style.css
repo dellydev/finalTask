@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebebeb;
+}
+
+.navigation-link{
+    position: sticky-top !important;
+    top: 0; left: 0; right: 0 !important;
+    background-color: darkgrey !important;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,0.1) !important;
+    z-index: 1000 !important;
+}
+
+.nab-logo {
+    color: rgb(133, 26, 26);
+    text-emphasis-style: italic;
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+.h-link{
+    text-decoration: none;
+    color: red;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: .3rem .3rem .7rem #272727, -.3rem -.3rem .7rem #fff;
+}
+
+.head-link{
+    color: black;
+}
+
+.nav-more a{
+    text-decoration: none;
+    color: black;
+}
+.nav-more a:hover{
+    transition: 0.2s, linear 0.4;
+    color: brown;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+}
+
+.nav-more a:active{
+    color: brown;
+}
+.navbar-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar-link li{
+    list-style: none;
+    
+}
+
+.hero-box{
+    margin-left: 10%;
+    margin-bottom: 15%;
+    line-height: 3rem;
+}
+
+.hero-box {
+    display: inline-block;
+}
+.h-word{  
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-weight: 600;
+    color: brown;
+    display: inline-block;
+    font-size: 1.4rem;
+}
+.h-word span{
+    color:white;
+}
+
+.feature-product{
+background-color: whitesmoke;
+overflow: hidden;
+}
+
+.feature-product span{
+    color: brown;
+
+}
+card img {
+    max-width: 50%;
+    max-height: 25%;
+   }
+   .each-item{
+     padding: 1rem;
+     background: whitesmoke;
+     cursor: pointer;
+   }
+     .card{
+       object-fit:cover
+     }
+
+     .card {
+        border: none;
+        transition: transform 0.3s ease;
+      }
+      
+      .card:hover {
+        transform: translateY(-10px);
+
+      }
+      
+      .card img {
+        width: 50%;
+        height: auto;
+        transition: transform 0.3s ease;
+      }
+      
+      .card:hover img {
+        transform: scale(1.05);
+      }
+      
+      .card-title {
+        font-size: 1.25rem;
+        color: brown;
+      }
+      
+      .card-text {
+        color: #343a40;
+      }
+
+
+.foot-container{
+    background-color: hsl(300, 64%, 9%) !important;
+    /* background-color: #9f859f; */
+    padding: 3rem 3rem;
+    margin-top: 2rem;
+}
+
+
+.btn-shop{
+    background-color: brown !important;
+}
+
+.featured-products h2, .categories h2 {
+
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #343a40;
+  }
+  
+  .featured-products h2::after, .categories h2::after {
+    position: absolute;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 8rem;
+    height: 4px;
+    background-color: #28a745;
+    border-radius: 2px;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+      transition:  0.3s linear;
+  }
+  
+  .card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    color: brown;
+  }
+  
+  .card-text {
+    color: #343a40;
+  }
+  
+
+

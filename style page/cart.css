@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebebeb;
+}
+
+.navigation-link{
+    position: sticky-top !important;
+    top: 0; left: 0; right: 0 !important;
+    background-color: darkgrey !important;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,0.1) !important;
+    z-index: 1000 !important;
+}
+
+.nab-logo {
+    color: rgb(133, 26, 26);
+    text-emphasis-style: italic;
+    font-weight: 500;
+    margin-right: 0.5rem;
+}

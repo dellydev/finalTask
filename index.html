@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <title>Trendy Wears</title>
+  </head>
+  <body>
+    <header class="sticky-top text-white">
+    <nav class="navbar navbar-expand-lg navbar-light navigation-link">
+        <div class="container">
+          <a class="navbar-brand nab-logo">Trendy<span>Wears</span></a>
+
+          <div class="cart-icon position-relative me-3">
+            <span class="cart-count position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+            <img class="cart-icon" src="./image/carts.png" alt="Cart" width="23" height="23">
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse head-link" id="navbarSupportedContent" >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active nav-more"  aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="./html page/cart.html">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="#">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn navigation-link" type="submit">Search</button>
+        
+          </div>
+        </div>
+      </nav>
+    </header>
+
+      <main>
+        <!-- Landing Page Content -->
+        <section id="landing" class="section active">
+          <section class="hero mb-4" style="background-image: url(./image/pexels-enginakyurt-1642228.jpg); background-position: center; background-repeat: no-repeat; background-size: contain; width: 100%; height: 100vh;">
+            <div class="hero-box"><h1 class="h-word">Get up to 30% off all products.</h1> <br>
+            <h2>Elevate your Style,<br> Elevate your Life.</h2>
+             <a href="" class="h-link">SHOP NOW <i class="fa-solid fa-arrow-right"></i></a>
+         </div>
+          </section>
+
+          
+          <section class="categories container mb-4">
+            <h2 class="text-center mb-4">Popular Products</h2>
+            <div class="row row-cols-1 category-list p-3 row-cols-md-4 g-3">
+              <!-- Category Images -->
+              <div class="col">
+                <div class="card">
+                  <img src="./image/thom-bradley-mwa_nzFpnJw-unsplash.jpg" class="card-img-top" alt="shirt">
+                  <div class="card-body">
+                    <h5 class="card-title">Women</h5>
+                    <a href="#" class="btn btn-primary btn-shop">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./image/IMG-20240403-WA0013.jpg" class="card-img-top" alt="bracelet">
+                  <div class="card-body">
+                    <h5 class="card-title">Jewellery</h5>
+                    <a href="#" class="btn btn-primary btn-shop">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./image/rayul-_M6gy9oHgII-unsplash.jpg" class="card-img-top" alt="male">
+                  <div class="card-body">
+                    <h5 class="card-title">Men</h5>
+                    <a href="#" class="btn btn-primary btn-shop">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </section>
+
+          <section class="feature-product container mb-4">
+            <h2 class="text-center mb-4 p-3"><span>Featured</span> Products</h2>
+            <div class="row data-view row-cols-1 row-cols-md-3 g-4 p-3 h-100 feature-container" >
+              <!-- Product Images -->
+            </div>
+          </section>
+
+          
+        </section>
+      </main>
+    
+      <!--Footer -->
+      <footer class="bg-dark text-white py-3 d-flex foot-container">
+        <div class="container ">
+          
+          <div class="social-links p-3 mb-4">
+          <h3 class="foot-text">Follow our socials</h3>
+        <div class="footer-icon p-2">
+        <a href="09037312675"> <i class="fa-brands fa-whatsapp"></i></a>
+        <a href="twitter"> <i class="fa-brands fa-twitter"></i></a>
+        <a href="facebook"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="Instagram"> <i class="fa-brands fa-instagram"></i></a>
+    
+          </div>
+          <h4>Quick Links</h4>
+
+          <li class="nav-cont"><a href="./contact.html">Contact Us</a></li>
+          <li class="nav-home"><a href="">Cart</a></li>
+          <li class="nav-home"><a href="">Blog</a></li>
+          <li class="nav-home"><a href="">Home</a></li>
+        <div class="container text-center">
+          <div class="footer-copyright">
+            <h3>Copyright</h3>
+             <label for="">2024 TrendyWears. All Rights Reserved.</label>
+          </div>
+        
+          <div class="contact-info">
+            <p p-1 mt-2>Contact us:badmusayo06@gmail.com</p>
+            <label></label>
+          </div>
+        </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/761108eeb6.js" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+  </body>
+</html>
+
+
