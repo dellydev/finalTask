@@ -88,7 +88,7 @@ function addToCart(productId, quantity) {
 
 
     cartCount += 1;
-    cartCountElement.innerText = cartCount;
+    cartCountE1.innerText = cartCount;
   }
 }
 
@@ -196,5 +196,5 @@ function saveOrderSummary() {
 }
 
 document.querySelector('.cart-icon').addEventListener('click', function() {
-    window.location.href = '../html page/cart.html';
+    window.location.href = 'cart.html';
 });

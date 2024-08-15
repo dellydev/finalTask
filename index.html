@@ -22,7 +22,7 @@
     <header class="sticky-top text-white">
     <nav class="navbar navbar-expand-lg navbar-light navigation-link">
         <div class="container">
-          <a class="navbar-brand nab-logo">Trendy<span>Wears</span></a>
+          <a class="navbar-brand nab-logo"><span>Trendy</span>Wears</a>
 
           <div class="cart-icon position-relative me-3">
             <span class="cart-count position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
@@ -32,22 +32,23 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse head-link" id="navbarSupportedContent" >
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active nav-more"  aria-current="page" href="index.html">Home</a>
+            <ul class="navbar-nav ms-auto text-white mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active nav-more text-white m-1"  aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  aria-current="page" href="#">Contact</a>
+                <a class="nav-link active text-white m-1"  aria-current="page" href="#">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  aria-current="page" href="./html page/cart.html">Cart</a>
+                <a class="nav-link active text-white m-1"  aria-current="page" href="./html page/cart.html">Shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  aria-current="page" href="#">Blog</a>
+                <a class="nav-link active text-white m-1"  aria-current="page" href="#">About</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex g-5" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn navigation-link" type="submit">Search</button>
         
@@ -58,22 +59,31 @@
 
       <main>
         <!-- Landing Page Content -->
-        <section id="landing" class="section active">
-          <section class="hero mb-4" style="background-image: url(./image/pexels-enginakyurt-1642228.jpg); background-position: center; background-repeat: no-repeat; background-size: contain; width: 100%; height: 100vh;">
+        <section id="landing" class="section active ">
+           <section class="hero mb-4" style="background-image: url(./image/laptop-shopping-bags-online-shopping-concept.jpg); background-position: center; background-repeat: no-repeat; background-size: contain; width: 100%; height: 100vh;"> 
             <div class="hero-box"><h1 class="h-word">Get up to 30% off all products.</h1> <br>
             <h2>Elevate your Style,<br> Elevate your Life.</h2>
-             <a href="" class="h-link">SHOP NOW <i class="fa-solid fa-arrow-right"></i></a>
+             <a href="" class="h-link p-2">SHOP NOW <i class="fa-solid fa-arrow-right"></i></a>
          </div>
+         <!-- <div class="h-img ">
+          <img src="./image/laptop-shopping-bags-online-shopping-concept.jpg" alt="">
+         </div> -->
           </section>
 
-          
-          <section class="categories container mb-4">
-            <h2 class="text-center mb-4">Popular Products</h2>
+          <section class="feature-product container mb-4">
+            <h2 class="text-center bg-light mb-4 p-3"><span>Featured</span> Products</h2>
+            <div class="row data-view row-cols-1 row-cols-md-3 g-4 p-3 h-100 feature-container" >
+              <!-- Product Images -->
+            </div>
+          </section>
+
+          <section class="categories container card mb-4">
+            <h2 class="text-center bg-light mb-4 ppro">Popular <span>Products</span></h2>
             <div class="row row-cols-1 category-list p-3 row-cols-md-4 g-3">
               <!-- Category Images -->
               <div class="col">
                 <div class="card">
-                  <img src="./image/thom-bradley-mwa_nzFpnJw-unsplash.jpg" class="card-img-top" alt="shirt">
+                  <img src="./image/cristofer-maximilian-AqLIkOzWDAk-unsplash.jpg" class="card-img-top" alt="shirt">
                   <div class="card-body">
                     <h5 class="card-title">Women</h5>
                     <a href="#" class="btn btn-primary btn-shop">Shop Now</a>
@@ -91,7 +101,7 @@
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="./image/rayul-_M6gy9oHgII-unsplash.jpg" class="card-img-top" alt="male">
+                  <img src="./image/cristofer-maximilian-AqLIkOzWDAk-unsplash.jpg" class="card-img-top" alt="male">
                   <div class="card-body">
                     <h5 class="card-title">Men</h5>
                     <a href="#" class="btn btn-primary btn-shop">Shop Now</a>
@@ -102,47 +112,64 @@
             </div>
           </section>
 
-          <section class="feature-product container mb-4">
-            <h2 class="text-center mb-4 p-3"><span>Featured</span> Products</h2>
-            <div class="row data-view row-cols-1 row-cols-md-3 g-4 p-3 h-100 feature-container" >
-              <!-- Product Images -->
-            </div>
-          </section>
-
+         
           
-        </section>
+      
       </main>
     
       <!--Footer -->
-      <footer class="bg-dark text-white py-3 d-flex foot-container">
+      <footer class="bg-dark text-white foot-container">
         <div class="container ">
           
-          <div class="social-links p-3 mb-4">
-          <h3 class="foot-text">Follow our socials</h3>
-        <div class="footer-icon p-2">
-        <a href="09037312675"> <i class="fa-brands fa-whatsapp"></i></a>
-        <a href="twitter"> <i class="fa-brands fa-twitter"></i></a>
-        <a href="facebook"> <i class="fa-brands fa-facebook"></i></a>
-        <a href="Instagram"> <i class="fa-brands fa-instagram"></i></a>
-    
-          </div>
-          <h4>Quick Links</h4>
+          <div class="social-links d-flex gap-5 mb-4">
 
+            <div class="footer-i  f1">
+              <h5>Contact</h5>
+      
+              <label>Street: </label><br>
+              <label>City:</label><br>
+              <label>State Full:</label><br>
+              <label>Phone-No:</label><br>
+           </div>
+
+           <div class="footer-i  f2">
+              <h5>Locations</h5>
+              <label>Nigeria </label><br>
+              <label>USA</label><br>
+              <label>Singapore:</label><br>
+              <label>China</label><br>
+          </div>
+
+          <div class="container  q-link">
+           <h5>Quick Links</h5>
           <li class="nav-cont"><a href="./contact.html">Contact Us</a></li>
-          <li class="nav-home"><a href="">Cart</a></li>
-          <li class="nav-home"><a href="">Blog</a></li>
-          <li class="nav-home"><a href="">Home</a></li>
-        <div class="container text-center">
+          <li class="nav-home"><a href="./html page/cart.html">Cart</a></li>
+          <li class="nav-home"><a href="./style.css">Blog</a></li>
+          <li class="nav-home"><a href="./index.html">Home</a></li>
+          </div>
+
+        </div>  
+
+        <div class="mine">
+          <div class="footer-icon m-and p-2">
+            <h5 class="foot-text">Follow our socials</h5>
+            <a href="09037312675"> <i class="fa-brands fa-whatsapp p-1">Whatsapp</i></a>
+            <a href="twitter"> <i class="fa-brands fa-twitter p-1">Twitter</i></a>
+            <a href="facebook"> <i class="fa-brands fa-facebook p-1">Facebook</i></a>
+            <a href="Instagram"> <i class="fa-brands fa-instagram p-1">Instagram</i></a>
+         </div>
+
           <div class="footer-copyright">
-            <h3>Copyright</h3>
-             <label for="">2024 TrendyWears. All Rights Reserved.</label>
-          </div>
-        
-          <div class="contact-info">
-            <p p-1 mt-2>Contact us:badmusayo06@gmail.com</p>
-            <label></label>
-          </div>
+            <label for="">2024 TrendyWears. All Rights Reserved.</label>
+         </div>
+
+
         </div>
+        <div class="contact-info">
+          <p p-1 mt-2>Contact us:badmusayo06@gmail.com</p>
+          <label></label>
+        </div>
+        
       </footer>
       <script src="https://kit.fontawesome.com/761108eeb6.js" crossorigin="anonymous"></script>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

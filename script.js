@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 let     imgCard = document.querySelector('.card-img');
 let  trolleyCountE1 = document.querySelector('.cart-count');
 let   productView = document.querySelector('.data-view');
@@ -15,6 +15,7 @@ function getPost(){
   .then((response)=>response.json())
   .then((data)=>{
     data.forEach((e, index) => {
+      console.log(data)
     let product = `
        <div class="col each-item">
   <div class="card each">
@@ -44,7 +45,7 @@ function itemView() {
   disProduct.forEach((e, index) => {
   product.addEventListener('click', ()=>{
    localStorage.setItem("productId", index+1)
-   window.location.href="../html page/product.html"
+   window.location.href="product.html"
   })
 
 
@@ -53,10 +54,10 @@ function itemView() {
   
 }
 function cartItem(){
-  fetch('https://fakestoreapi.com/products/category/')
-  .then((res) => res.json())
-  .then((e)=>{
-    e.forEach((item, index) => {
+  fetch('https://fakestoreapi.com/products/category')
+  .then((response)=>response.json())
+  .then((data)=>{
+    data.forEach((item, index) => {
      console.log(item);
     let Item = `
        <div class="col each-item">
@@ -78,5 +79,5 @@ function cartItem(){
 }
 cartItem()
 document.querySelector('.cart-icon').addEventListener('click', function() {
-  window.location.href = 'cart.html'; // Replace with the actual URL of your cart summary page
+  window.location.href = 'cart.html'; 
 });

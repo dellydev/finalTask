@@ -63,20 +63,4 @@ body {
     border-bottom: none;
   }
   
-  footer {
-    background-color: #343a40;
-  }
-  
-  footer p, footer i {
-    color: white;
-  }
-  
-  footer i {
-    font-size: 24px;
-    margin: 0 10px;
-  }
-  
-  footer i:hover {
-    color: #ffc107;
-  }
   

@@ -10,9 +10,7 @@ body{
 .navigation-link{
     position: sticky-top !important;
     top: 0; left: 0; right: 0 !important;
-    background-color: darkgrey !important;
-    box-shadow: 0.5rem 1rem rgba(0,0,0,0.1) !important;
-    z-index: 1000 !important;
+    background-color: black !important;
 }
 
 .nab-logo {

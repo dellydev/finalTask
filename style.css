@@ -10,16 +10,23 @@ body{
 .navigation-link{
     position: sticky-top !important;
     top: 0; left: 0; right: 0 !important;
-    background-color: darkgrey !important;
-    box-shadow: 0.5rem 1rem rgba(0,0,0,0.1) !important;
+    background-color: black !important;
+    color: #fff;
     z-index: 1000 !important;
 }
 
 .nab-logo {
-    color: rgb(133, 26, 26);
     text-emphasis-style: italic;
     font-weight: 500;
     margin-right: 0.5rem;
+}
+
+.nab-logo {
+    color: orange !important;
+}
+
+.ppro span{
+    color:  orange !important;
 }
 .h-link{
     text-decoration: none;
@@ -64,6 +71,10 @@ body{
     line-height: 3rem;
 }
 
+.h-img{
+    object-fit: contain;
+    max-width: 400px; 
+}
 .hero-box {
     display: inline-block;
 }
@@ -71,7 +82,7 @@ body{
     margin-top: 20%;
     margin-bottom: 10%;
     font-weight: 600;
-    color: brown;
+    color: orange;
     display: inline-block;
     font-size: 1.4rem;
 }
@@ -80,71 +91,105 @@ body{
 }
 
 .feature-product{
-background-color: whitesmoke;
+background-color: white;
 overflow: hidden;
 }
 
 .feature-product span{
-    color: brown;
+    color: orange;
 
 }
-card img {
-    max-width: 50%;
-    max-height: 25%;
-   }
-   .each-item{
-     padding: 1rem;
-     background: whitesmoke;
-     cursor: pointer;
-   }
-     .card{
-       object-fit:cover
-     }
 
-     .card {
-        border: none;
-        transition: transform 0.3s ease;
-      }
-      
-      .card:hover {
-        transform: translateY(-10px);
+.each-item{
+    padding: 1rem;
+    background: #ebebeb;
+    box-shadow: -1px 15px 10px -12px;
+    cursor: pointer;
+}
 
-      }
+.card{
+    margin: 2rem;
+    object-fit:cover;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
       
-      .card img {
-        width: 50%;
-        height: auto;
-        transition: transform 0.3s ease;
-      }
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+            
+.card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+
+}
       
-      .card:hover img {
-        transform: scale(1.05);
-      }
+.card:hover img {
+    transform: scale(1.05);
+}
       
-      .card-title {
-        font-size: 1.25rem;
-        color: brown;
-      }
+.card-title {
+    font-size: 1.25rem;
+    color: orangered;
+}
       
-      .card-text {
-        color: #343a40;
-      }
+.card-text {
+    color: red;
+}
 
 
 .foot-container{
+    /* display: flex !important; */
     background-color: hsl(300, 64%, 9%) !important;
-    /* background-color: #9f859f; */
-    padding: 3rem 3rem;
-    margin-top: 2rem;
+
+    
 }
 
+.q-link{
+    text-align: start ;
+    font-size: 1rem;
+
+}
+
+.q-link a{
+    text-decoration: none;
+    color: #ebebeb;
+
+}
+
+.q-link a:hover{
+    color: red;
+    transition: 0.5s linear;
+}
+
+.q-link li{
+    list-style: none;
+}
+
+.m-and{
+    font-size: .9rem !important;
+    color: white !important;
+}
+
+.m-and a{
+    font-size: .6rem !important;
+    padding: .3rem;
+    color: #fff;
+}
+
+.m-and a:hover{
+    color: red;
+    transition: 0.5s ease-in-out;
+}
 
 .btn-shop{
     background-color: brown !important;
 }
 
 .featured-products h2, .categories h2 {
-
+    position: relative;
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: #343a40;
@@ -153,41 +198,9 @@ card img {
   .featured-products h2::after, .categories h2::after {
     position: absolute;
     bottom: -10px;
-    transform: translateX(-50%);
     width: 8rem;
     height: 4px;
-    background-color: #28a745;
     border-radius: 2px;
   }
   
-  .card {
-    border: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
   
-  .card:hover {
-    transform: translateY(-10px);
-    
-  }
-  
-  .card img {
-    width: 100%;
-    height: auto;
-      transition:  0.3s linear;
-  }
-  
-  .card:hover img {
-    transform: scale(1.05);
-  }
-  
-  .card-title {
-    font-size: 1.25rem;
-    color: brown;
-  }
-  
-  .card-text {
-    color: #343a40;
-  }
-  
-
-
